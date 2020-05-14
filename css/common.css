@@ -1,6 +1,11 @@
 img{
   width: 100%;
 }
+
+body{
+  overflow-x: hidden;
+}
+
 .about {
   padding:200px 0 200px;
   background-image: url('../assets/img/store.jpg');
