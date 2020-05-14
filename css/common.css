@@ -1,0 +1,30 @@
+img{
+  width: 100%;
+}
+.about {
+  padding:200px 0 200px;
+  background-image: url('../assets/img/store.jpg');
+  margin-top: 80px;
+  background-size: cover;
+  background-position: bottom;
+  color: white;
+  height: 400px;
+  position: relative;
+}
+
+.about .bong{
+  position: absolute;
+  top: 0;
+  left: 0;
+  right:0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.63);
+}
+
+.about .text{
+  position: absolute;
+  top: 40%;
+  left: 0;
+  right:0;
+  bottom: 0;
+}

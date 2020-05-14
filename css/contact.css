@@ -1,0 +1,90 @@
+.container .contact {
+  padding: 50px 0 50px;
+}
+
+.container .contact h4{
+  color: rgb(192, 21, 21);
+}
+
+
+.contact .gach{
+  height:3px;
+  width:25%;
+  background: red;
+  margin: 20px 0 20px 0;
+}
+
+.contact .gach1{
+  height:2px;
+  background: white;
+  margin: 20px 0 20px 0;
+}
+
+.contact .col-sm-4{
+  padding-top: 10px;
+}
+
+.contact .text{
+  color: gray;
+  font-size: 14px;
+}
+
+.contact span.text{
+  margin-left: 15px;
+}
+
+.contact span.text:hover{
+  color: rgb(192, 21, 21);
+  transition: 0.4s;
+  cursor: pointer;
+}
+.contact .icon-text:hover{
+  color: rgb(192, 21, 21);
+  transition: 0.4s;
+  cursor: pointer;
+}
+
+.contact .icon{
+  font-size: 20px;
+}
+.contact .icon i{
+  margin-right: 15px;
+  border-radius: 50%;
+  padding: 12px; 
+  border: 2px solid black;
+}
+.contact .icon i:hover{
+  color: white;
+  cursor: pointer;
+}
+.contact .icon i.fa-facebook-f:hover{
+  background-color: #3a589d ;
+  border: 2px solid #3a589d;
+}
+
+.contact .icon i.fa-twitter:hover{
+  background-color:  #266fc9;
+  border: 2px solid #266fc9;
+}
+
+.contact .icon i.fa-instagram:hover{
+  background-color: #334862 ;
+  border: 2px solid #334862;
+}
+
+.contact .icon i.fa-google:hover{
+  background-color: #c30005 ;
+  border: 2px solid #c30005;
+}
+
+.contact .icon i.fa-youtube:hover{
+  background-color: #c30005 ;
+  border: 2px solid #c30005;
+}
+
+.contact .icon-box .icon-text{
+  margin: 20px 0 20px;
+}
+
+
+

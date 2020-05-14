@@ -1,0 +1,117 @@
+#navbar{
+  height: 80px;
+  background: black;
+  z-index: 10;
+  position: fixed;
+  top: 0;
+  left:  0;
+  width: 100vw;
+}
+#navbar img{
+	position: absolute;
+	width: 130px;
+  left: 10%;
+  height: 30px;
+  top:25px;
+}
+#navbar #link{
+  float: right;
+  margin-right: 25px;
+  margin-bottom: 0;
+}
+#navbar #link .link-item{
+  display: inline-block;
+  line-height: 80px;
+  margin: 0 15px;
+
+}
+#navbar #link .link-item a{
+  position: relative;
+  padding: 5px 0;
+  color: white;
+  font-size: 17px;
+  text-transform: uppercase;
+  text-decoration: none;
+}
+#navbar #link .link-item a:before{
+  position: absolute;
+  content: '';
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 3px;
+  background: rgb(238, 48, 48);
+  transform: scaleX(0);
+  transform-origin: right;
+  transition: transform .4s linear;
+}
+#navbar #link .link-item a:hover:before{
+  transform: scaleX(1);
+  transform-origin: left;
+}
+#label-bars #btn,
+#label-bars #cancel{
+  font-size: 30px;
+  color: white;
+  float: right;
+  line-height: 80px;
+  margin-right: 40px;
+  cursor: pointer;
+  display: none;
+}
+#check{
+  display: none;
+}
+@media (max-width: 1118px){
+  #navbar img{
+    left: 8%;
+  }
+  #navbar #link .link-item a{
+		font-size: 14px;
+	}
+}
+@media (max-width: 944px){
+  #navbar img{
+    width: 130px;
+		left: 6%;
+  }
+	#navbar #link .link-item a{
+		font-size: 13px;
+	}
+}
+@media (max-width: 860px){
+    #label-bars{
+        float: right;
+        margin: 0;
+    }
+    #label-bars #btn{
+    display: block;
+  }
+  #link{
+    position: fixed;
+    width: 75%;
+    height: 100vh;
+    background: rgba(0, 0, 0, 0.808);
+    top: 80px;
+    left: -100%;
+    text-align: left;
+    transition: all .5s;
+  }
+  #navbar #link .link-item{
+    display: block;
+    margin: 40px 0;
+    line-height: 30px;
+  }
+  #navbar #link .link-item a{
+    font-size: 17px;
+  }
+  #check:checked ~ #link{
+    left: 0;
+  }
+	#check:checked ~ #label-bars #btn{
+    display: none;
+  }
+	#check:checked ~ #label-bars #cancel{
+    display: block;
+  }
+}

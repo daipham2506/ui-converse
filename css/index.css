@@ -1,0 +1,80 @@
+img{
+  width:100%;
+}
+
+.top-product .col-md-4 .icon{
+  width:50%;
+  display: block;
+  margin: 0 auto;
+  padding-top: 15px;
+}
+.top-product .col-md-4{
+  transition: 0.4s;
+  width: 70%;
+  margin: auto;
+}
+
+.top-product .col-md-4{
+  transition: 0.4s;
+  width: 90%;
+  margin: auto;
+}
+.top-product .col-md-4:hover {
+  border: 2px solid black;
+  transition: 0.4s;
+  cursor: pointer;
+}
+
+.top-product{
+  padding: 50px 0 30px 0;
+}
+
+.tab-product{
+  padding:30px 0 30px 0;
+  border-top: 3px solid black;
+  margin-bottom: 30px;
+}
+
+.tab-product img{
+  width:60%;
+}
+
+.top-product img{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 70%;
+}
+
+
+
+.phu-kien{
+  padding:10px 0 60px 0;
+  border-top: 3px solid black;
+}
+
+.phu-kien .col-md-3{
+  margin-top: 30px;
+}
+
+.btn-them{
+  font-size: 12px;
+}
+
+.gia{
+  color: red
+}
+
+.mota {
+  color: rgb(13, 137, 219);
+}
+
+.phu-kien .price{
+  color:rgb(238, 48, 48);
+}
+
+.phu-kien .card-title{
+  color:rgb(11, 68, 41);
+  font-size: 15px;
+}
+
