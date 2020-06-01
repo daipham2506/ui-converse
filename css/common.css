@@ -119,8 +119,6 @@ body{
   animation-direction: normal, alternate;
 }
 
-
-
 @media (max-width: 768px){
   #move-to-top{
     display: none;
