@@ -13,7 +13,7 @@
   <link rel="stylesheet" type="text/css" href="../css/common.css">
   <link rel="stylesheet" type="text/css" href="../assets/css/all.css">
   <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
-
+  <link href="https://fonts.googleapis.com/css2?family=Calistoga&family=Lobster&display=swap" rel="stylesheet">
 </head>
 
 <body>
@@ -45,15 +45,15 @@
   <div class="about text-center">
     <div class="bong"></div>
     <div class="text">
-      <h4>LIÊN HỆ</h4>
-      <h6>TRANG CHỦ / LIÊN HỆ</h6>
+      <h4 class="font-cal">LIÊN HỆ</h4>
+      <h6 class="font-cal">TRANG CHỦ / LIÊN HỆ</h6>
     </div>
   </div>
 
 
   <div class="container">
     <div class="row contact">
-      <div class="col-sm-6" data-aos="fade-right" data-aos-duration="2000">
+      <div class="col-lg-5" data-aos="fade-right" data-aos-duration="2000">
         <h4>THÔNG TIN LIÊN HỆ</h4>
         <div class='gach'></div>
         <div class="icon-box">
@@ -87,27 +87,27 @@
         </div>
       </div>
 
-      <div class="col-sm-6" data-aos="fade-left" data-aos-duration="2000">
+      <div class="col-lg-7" data-aos="fade-left" data-aos-duration="2000">
         <form class="mt-4">
           <div class="form-row">
-            <div class="form-group col-md-6 col-12" >
+            <div class="form-group col-md-6 col-12"  data-aos="fade-right">
               <label for="name">Họ tên</label>
               <input type="text" id="name" class="form-control" placeholder="Vui lòng nhập họ và tên" required>
             </div>
-            <div class="form-group col-md-6 col-12" >
+            <div class="form-group col-md-6 col-12"  data-aos="fade-left">
               <label for="address">Địa chỉ</label>
               <input type="text" id="address" class="form-control" placeholder="Vui lòng nhập địa chỉ" required>
             </div>
           </div>
           <div class="form-row">
-            <div class="form-group col-md-6 col-12" >
+            <div class="form-group col-md-6 col-12"  data-aos="fade-right">
               <label for="email">Email</label>
               <input type="email" id="email" class="form-control" placeholder="Vui lòng nhập địa chỉ email"
                 aria-describedby="emailHelp" required>
               <small id="emailHelp" class="form-text text-muted">Chúng tôi không bao giờ chia sẻ email của
                 bạn</small>
             </div>
-            <div class="form-group col-md-6 col-12" >
+            <div class="form-group col-md-6 col-12" data-aos="fade-left">
               <label for="phone-number">Số điện thoại</label>
               <input type="tel" id="phone-number" class="form-control" placeholder="Vui lòng nhập số điện thoại"
                 aria-describedby="phoneHelp" required>
@@ -139,6 +139,7 @@
 
       </div>
     </div>
+    <button id="move-to-top" onclick="moveToTop();" class="hvr-bob"><i class="fas fa-arrow-up"></i></button>
   </div>
 
   <div class="gg-map">
@@ -188,9 +189,30 @@
         </div>
         <div class="col-sm-4">
           <form class="form-inline my-2 my-lg-0">
-            <input class="form-control mr-sm-2" type="search" placeholder="Email..."" aria-label=" Search">
+            <input class="form-control mr-sm-2" type="search" placeholder="Email..." aria-label=" Search">
             <button class="btn btn-outline-danger my-2 my-sm-0" type="submit">Đăng ký</button>
           </form>
+        </div>
+        <div class="col-sm-4">
+          <div class="box-image">
+            <img width="94" height="34"
+              src="http://mauweb.monamedia.net/converse/wp-content/uploads/2019/05/payment1.png"
+              class="attachment-original size-original" alt="" ids="746,747,748,749,750" style="none"
+              col_spacing="collapse" columns="5" columns__sm="5" columns__md="6" image_size="original">
+          </div>
+          <div class="box-image">
+            <img width="74" height="34"
+              src="http://mauweb.monamedia.net/converse/wp-content/uploads/2019/05/payment2.png"
+              class="attachment-original size-original" alt="" ids="746,747,748,749,750" style="none"
+              col_spacing="collapse" columns="5" columns__sm="5" columns__md="6" image_size="original">
+          </div>
+          <div class="box-image">
+            <img width="74" height="34" src="http://mauweb.monamedia.net/converse/wp-content/uploads/2019/05/payment3.png" class="attachment-original size-original" alt="" ids="746,747,748,749,750" style="none" col_spacing="collapse" columns="5" columns__sm="5" columns__md="6" image_size="original">
+          </div>
+          <div class="box-image">
+            <img width="74" height="34" src="http://mauweb.monamedia.net/converse/wp-content/uploads/2019/05/payment5.png" class="attachment-original size-original" alt="" ids="746,747,748,749,750" style="none" col_spacing="collapse" columns="5" columns__sm="5" columns__md="6" image_size="original">
+          </div>
+
         </div>
       </div>
     </div>
@@ -221,6 +243,7 @@
   <script>
     AOS.init();
   </script>
+  <script src="../js/moveToTop.js"></script>
 </body>
 
 </html>

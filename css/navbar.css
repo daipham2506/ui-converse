@@ -115,3 +115,10 @@
     display: block;
   }
 }
+
+.box-image{
+  display: inline-block;
+  height: auto;
+  overflow: hidden;
+  width: 23%;
+}

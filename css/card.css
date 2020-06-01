@@ -15,7 +15,7 @@ transform: scale(1);
 -webkit-transition: .3s ease-in-out;
   transition: .3s ease-in-out;
   width: 90%;
-  height: 90%;
+  /* height: 90%; */
   margin: 5px auto;
 }
 .card:hover img{

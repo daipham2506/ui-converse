@@ -11,9 +11,12 @@
   <link rel="stylesheet" type="text/css" href="css/card.css">
   <link rel="stylesheet" type="text/css" href="css/index.css">
   <link rel="stylesheet" type="text/css" href="css/footer.css">
+  <link rel="stylesheet" type="text/css" href="css/common.css">
 
   <link rel="stylesheet" type="text/css" href="assets/css/all.css">
   <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Calistoga&family=Lobster&display=swap" rel="stylesheet">
+
 
 </head>
 
@@ -95,6 +98,7 @@
         <img src="assets/img/banner2.jpg" alt="...">
       </div>
     </div>
+
 
     <!-- TAB PRODUCT -->
 
@@ -203,7 +207,7 @@
     </div>
 
     <!-- Phu Kien khac  -->
-    <h4 class='text-center'>PHỤ KIỆN KHÁC</h4>
+    <h4 class='text-center font-cal'>PHỤ KIỆN KHÁC</h4>
     <div class="row phu-kien ">
 
       <div class="col-sm-3">
@@ -328,7 +332,7 @@
 
     </div>
 
-
+    <button id="move-to-top" onclick="moveToTop();" class="hvr-bob"><i class="fas fa-arrow-up"></i></button>
 
   </div>
 
@@ -372,11 +376,31 @@
         <div class="col-sm-4">
           <h5>ĐĂNG KÝ NHẬN THÔNG TIN</h5>
         </div>
-        <div class="col-sm-8">
+        <div class="col-sm-4">
           <form class="form-inline my-2 my-lg-0">
-            <input class="form-control mr-sm-2" type="search" placeholder="Email..."" aria-label=" Search">
+            <input class="form-control mr-sm-2" type="search" placeholder="Email..." aria-label=" Search">
             <button class="btn btn-outline-danger my-2 my-sm-0" type="submit">Đăng ký</button>
           </form>
+        </div>
+        <div class="col-sm-4">
+          <div class="box-image">
+            <img width="94" height="34"
+              src="http://mauweb.monamedia.net/converse/wp-content/uploads/2019/05/payment1.png"
+              class="attachment-original size-original" alt="" ids="746,747,748,749,750" style="none"
+              col_spacing="collapse" columns="5" columns__sm="5" columns__md="6" image_size="original">
+          </div>
+          <div class="box-image">
+            <img width="74" height="34"
+              src="http://mauweb.monamedia.net/converse/wp-content/uploads/2019/05/payment2.png"
+              class="attachment-original size-original" alt="" ids="746,747,748,749,750" style="none"
+              col_spacing="collapse" columns="5" columns__sm="5" columns__md="6" image_size="original">
+          </div>
+          <div class="box-image">
+            <img width="74" height="34" src="http://mauweb.monamedia.net/converse/wp-content/uploads/2019/05/payment3.png" class="attachment-original size-original" alt="" ids="746,747,748,749,750" style="none" col_spacing="collapse" columns="5" columns__sm="5" columns__md="6" image_size="original">
+          </div>
+          <div class="box-image">
+            <img width="74" height="34" src="http://mauweb.monamedia.net/converse/wp-content/uploads/2019/05/payment5.png" class="attachment-original size-original" alt="" ids="746,747,748,749,750" style="none" col_spacing="collapse" columns="5" columns__sm="5" columns__md="6" image_size="original">
+          </div>
         </div>
       </div>
     </div>
@@ -407,6 +431,7 @@
   <script>
     AOS.init();
   </script>
+  <script src="./js/moveToTop.js"></script>
 </body>
 
 </html>
